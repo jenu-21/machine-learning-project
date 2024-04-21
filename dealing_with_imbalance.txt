@@ -1,0 +1,24 @@
+In your output, the model is still struggling to effectively classify the minority class (class 1), as indicated by the low precision and F1-score for class 1. To further address the imbalance and improve the model's performance, you can try the following strategies:
+
+1. **Adjust Class Weights**: 
+   - Experiment with different class weight ratios to give more emphasis to the minority class. You can try increasing the weight for class 1 even further to penalize misclassifications of the minority class.
+
+2. **Threshold Adjustment**: 
+   - SVM classifiers provide decision functions that assign a score to each sample. By default, the predicted class is the one with the highest score. Adjusting the decision threshold can help balance precision and recall. You can experiment with different thresholds to find the optimal balance.
+
+3. **Ensemble Methods**:
+   - Consider using ensemble methods like Bagging or Boosting with SVM classifiers. Ensemble methods combine multiple classifiers to improve overall performance and generalization. They can help mitigate the effects of class imbalance.
+
+4. **Cost-sensitive Learning**:
+   - If your SVM implementation supports it, you can explore cost-sensitive learning approaches where misclassifications of the minority class incur higher costs. This encourages the model to prioritize correct classification of the minority class.
+
+5. **Feature Engineering**:
+   - Analyze and preprocess your features to extract more meaningful information that may help the model better distinguish between the classes.
+
+6. **Model Selection**:
+   - If SVM is not yielding satisfactory results, you may want to consider trying other algorithms that are more robust to imbalanced datasets, such as ensemble methods like Random Forest or Gradient Boosting Machines (GBM).
+
+7. **Advanced Sampling Techniques**:
+   - Experiment with more advanced sampling techniques like SMOTE combined with Tomek links (SMOTETomek) or SMOTE combined with Edited Nearest Neighbors (SMOTEENN). These techniques can create synthetic samples for the minority class while also removing noisy or borderline samples.
+
+Adjusting these aspects and experimenting with different combinations can help improve the model's ability to handle class imbalance and enhance its overall performance. It may require iterative testing and fine-tuning to find the best approach for your specific dataset and problem.
