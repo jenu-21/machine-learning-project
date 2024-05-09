@@ -47,3 +47,21 @@ Performed various regression analysis such as multiple linear and polynomial reg
   
 ![remove_nulls](https://github.com/jenu-21/machine-learning-project/assets/133542213/86293e37-6977-4454-87de-a7281c9de31f)
 
+#### EDA 
+![airplane_crash_correlation](https://github.com/jenu-21/machine-learning-project/assets/133542213/28cb0b5a-0ffa-4839-a3b5-68d0a3863c53)
+
+#### Regression Analysis 
+
+- Similar methods of the prior project above with train-testing split, encoding categorical variables, predictions
+
+##### Methods incorporated
+The regression analysis was done on 3 models:
+- Multiple Linear
+- Polynomial
+- Ridge Regression
+
+Utilising MSE, RMSE and R-Squared test to evaluate the best model 
+![evaluation_regression_models](https://github.com/jenu-21/machine-learning-project/assets/133542213/2177ed4a-3d95-4369-a49c-e0609593a772)
+
+
+
