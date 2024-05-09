@@ -11,6 +11,7 @@ Developed various models, such as KNN and SVM to predict the number of occurrenc
 ![box_plot](https://github.com/jenu-21/machine-learning-project/assets/133542213/60df8f01-e73c-4dc4-aad1-19a44c02dda7)
 
 #### Process of machine learning classification
+
 ##### Normalise the data
 - To ensure the categorical variables are encoded for the tests
 
@@ -29,6 +30,20 @@ Developed various models, such as KNN and SVM to predict the number of occurrenc
 
 All these processes have been applied to various classification methods such as KNN, Dtree, SVM AND Gradient boosting machine
 
-- Issue of imbalanced dataset
+##### Issue of imbalanced dataset
 ![distribution_of_stroke](https://github.com/jenu-21/machine-learning-project/assets/133542213/f1893433-b210-4198-b90a-3c4af6dad963)
+
+This was sorted by utilising techniques such as random oversampling, SMOTE and other sampling techniques to get results like this
+![confusion_matrix_resampled](https://github.com/jenu-21/machine-learning-project/assets/133542213/8659a24f-08cd-4d8a-b9ff-145fcabcdba4)
+
+
+## Airplane Crash Regression Analysis
+
+Performed various regression analysis such as multiple linear and polynomial regressions to predict the number of occurrences of crashes.
+
+#### Data Cleaning
+
+- Removed null values, particularly in key columns of consideration
+  
+![remove_nulls](https://github.com/jenu-21/machine-learning-project/assets/133542213/86293e37-6977-4454-87de-a7281c9de31f)
 
