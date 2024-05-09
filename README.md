@@ -1,3 +1,3 @@
-# machine-learning-project
+# Machine Learning Projects
 
-- A combination of 2 projects that tests for classification and regression respectively 
+ A combination of 2 projects that test for classification and regression respectively 
