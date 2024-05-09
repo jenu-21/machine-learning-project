@@ -1,3 +1,34 @@
 # Machine Learning Projects
 
- A combination of 2 projects that test for classification and regression respectively 
+ A combination of 2 projects that test for classification and regression respectively. 
+ Worked on data involving ‘brain strokes' and 'airplane crashes'. 
+
+## Brain Stroke Classification
+
+Developed various models, such as KNN and SVM to predict the number of occurrences of brain strokes. 
+
+#### Basic EDA
+![box_plot](https://github.com/jenu-21/machine-learning-project/assets/133542213/60df8f01-e73c-4dc4-aad1-19a44c02dda7)
+
+#### Process of machine learning classification
+##### Normalise the data
+- To ensure the categorical variables are encoded for the tests
+
+##### Train-Test Split 
+- The train-test split is a crucial step in machine learning model development, primarily for evaluating the model's performance and generalisation ability
+![encode](https://github.com/jenu-21/machine-learning-project/assets/133542213/293b1f9a-6f53-487b-964d-f9055fdc0153)
+
+- Scaling the data ensures that the machine learning algorithm can effectively learn from the data and produce better results, especially for algorithms sensitive to feature scales.
+  ![scaling](https://github.com/jenu-21/machine-learning-project/assets/133542213/c779ae96-efb0-4deb-8a83-d1fd973d6bf1)
+
+##### Using Predictions
+![predictions](https://github.com/jenu-21/machine-learning-project/assets/133542213/20f2a43c-f2e1-458e-b967-6cc58cd704a0)
+
+##### Classification Report with confusion matrix 
+![classification report](https://github.com/jenu-21/machine-learning-project/assets/133542213/ed880e5e-7ad1-48ab-83d0-4082d14d7258)
+
+All these processes have been applied to various classification methods such as KNN, Dtree, SVM AND Gradient boosting machine
+
+- Issue of imbalanced dataset
+![distribution_of_stroke](https://github.com/jenu-21/machine-learning-project/assets/133542213/f1893433-b210-4198-b90a-3c4af6dad963)
+
